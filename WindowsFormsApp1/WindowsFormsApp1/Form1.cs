@@ -22,8 +22,10 @@ namespace WindowsFormsApp1
 
         private void updateTotal()
         {
+            txtNoOfCredits.Text = (total / Convert.ToDouble(txtCostPerCredit.Text)).ToString();
             txtTotalPence.Text = (total.ToString() + "p");
             txtTotalPoundsandPence.Text = ("£" + (Convert.ToDouble(total) / 100).ToString());
+            
         }
 
         private bool checkcredit()
@@ -54,7 +56,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Please Enter the Cost per Credit");
+                MessageBox.Show("You have not set the Cost of a Credit");
             }            
         }
 
@@ -69,7 +71,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Please Enter the Cost per Credit");
+                MessageBox.Show("You have not set the Cost of a Credit");
             }
         }
 
@@ -84,7 +86,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Please Enter the Cost per Credit");
+                MessageBox.Show("You have not set the Cost of a Credit");
             }
         }
 
@@ -99,7 +101,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Please Enter the Cost per Credit");
+                MessageBox.Show("You have not set the Cost of a Credit");
             }
         }
 
@@ -114,7 +116,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Please Enter the Cost per Credit");
+                MessageBox.Show("You have not set the Cost of a Credit");
             }
         }
 
@@ -129,7 +131,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Please Enter the Cost per Credit");
+                MessageBox.Show("You have not set the Cost of a Credit");
             }
         }
 
@@ -144,7 +146,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Please Enter the Cost per Credit");
+                MessageBox.Show("You have not set the Cost of a Credit");
             }
         }
 
@@ -159,7 +161,7 @@ namespace WindowsFormsApp1
             }
             else
             {
-                MessageBox.Show("Please Enter the Cost per Credit");
+                MessageBox.Show("You have not set the Cost of a Credit");
             }
         }
 
