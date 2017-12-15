@@ -414,72 +414,72 @@
             this.lblTotal200p.AutoSize = true;
             this.lblTotal200p.Location = new System.Drawing.Point(147, 429);
             this.lblTotal200p.Name = "lblTotal200p";
-            this.lblTotal200p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal200p.Size = new System.Drawing.Size(13, 13);
             this.lblTotal200p.TabIndex = 36;
-            this.lblTotal200p.Text = "label12";
+            this.lblTotal200p.Text = "0";
             // 
             // lblTotal100p
             // 
             this.lblTotal100p.AutoSize = true;
             this.lblTotal100p.Location = new System.Drawing.Point(147, 377);
             this.lblTotal100p.Name = "lblTotal100p";
-            this.lblTotal100p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal100p.Size = new System.Drawing.Size(13, 13);
             this.lblTotal100p.TabIndex = 35;
-            this.lblTotal100p.Text = "label13";
+            this.lblTotal100p.Text = "0";
             // 
             // lblTotal50p
             // 
             this.lblTotal50p.AutoSize = true;
             this.lblTotal50p.Location = new System.Drawing.Point(147, 322);
             this.lblTotal50p.Name = "lblTotal50p";
-            this.lblTotal50p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal50p.Size = new System.Drawing.Size(13, 13);
             this.lblTotal50p.TabIndex = 34;
-            this.lblTotal50p.Text = "label14";
+            this.lblTotal50p.Text = "0";
             // 
             // lblTotal20p
             // 
             this.lblTotal20p.AutoSize = true;
             this.lblTotal20p.Location = new System.Drawing.Point(147, 263);
             this.lblTotal20p.Name = "lblTotal20p";
-            this.lblTotal20p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal20p.Size = new System.Drawing.Size(13, 13);
             this.lblTotal20p.TabIndex = 33;
-            this.lblTotal20p.Text = "label15";
+            this.lblTotal20p.Text = "0";
             // 
             // lblTotal5p
             // 
             this.lblTotal5p.AutoSize = true;
             this.lblTotal5p.Location = new System.Drawing.Point(147, 152);
             this.lblTotal5p.Name = "lblTotal5p";
-            this.lblTotal5p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal5p.Size = new System.Drawing.Size(13, 13);
             this.lblTotal5p.TabIndex = 32;
-            this.lblTotal5p.Text = "label16";
+            this.lblTotal5p.Text = "0";
             // 
             // lblTotal10p
             // 
             this.lblTotal10p.AutoSize = true;
             this.lblTotal10p.Location = new System.Drawing.Point(147, 205);
             this.lblTotal10p.Name = "lblTotal10p";
-            this.lblTotal10p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal10p.Size = new System.Drawing.Size(13, 13);
             this.lblTotal10p.TabIndex = 31;
-            this.lblTotal10p.Text = "label17";
+            this.lblTotal10p.Text = "0";
             // 
             // lblTotal2p
             // 
             this.lblTotal2p.AutoSize = true;
             this.lblTotal2p.Location = new System.Drawing.Point(147, 94);
             this.lblTotal2p.Name = "lblTotal2p";
-            this.lblTotal2p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal2p.Size = new System.Drawing.Size(13, 13);
             this.lblTotal2p.TabIndex = 30;
-            this.lblTotal2p.Text = "label18";
+            this.lblTotal2p.Text = "0";
             // 
             // lblTotal1p
             // 
             this.lblTotal1p.AutoSize = true;
             this.lblTotal1p.Location = new System.Drawing.Point(147, 37);
             this.lblTotal1p.Name = "lblTotal1p";
-            this.lblTotal1p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal1p.Size = new System.Drawing.Size(13, 13);
             this.lblTotal1p.TabIndex = 29;
-            this.lblTotal1p.Text = "label19";
+            this.lblTotal1p.Text = "0";
             // 
             // groupBox2
             // 
