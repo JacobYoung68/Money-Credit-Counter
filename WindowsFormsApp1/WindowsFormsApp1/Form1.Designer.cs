@@ -59,21 +59,21 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
+            this.lblTotal200p = new System.Windows.Forms.Label();
+            this.lblTotal100p = new System.Windows.Forms.Label();
+            this.lblTotal50p = new System.Windows.Forms.Label();
+            this.lblTotal20p = new System.Windows.Forms.Label();
+            this.lblTotal5p = new System.Windows.Forms.Label();
+            this.lblTotal10p = new System.Windows.Forms.Label();
+            this.lblTotal2p = new System.Windows.Forms.Label();
+            this.lblTotal1p = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label21 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtCostPerCredit = new System.Windows.Forms.TextBox();
             this.label20 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.txtNoOfCredits = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -409,96 +409,96 @@
             this.label10.TabIndex = 28;
             this.label10.Text = "p";
             // 
-            // label12
+            // lblTotal200p
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(147, 429);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(41, 13);
-            this.label12.TabIndex = 36;
-            this.label12.Text = "label12";
+            this.lblTotal200p.AutoSize = true;
+            this.lblTotal200p.Location = new System.Drawing.Point(147, 429);
+            this.lblTotal200p.Name = "lblTotal200p";
+            this.lblTotal200p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal200p.TabIndex = 36;
+            this.lblTotal200p.Text = "label12";
             // 
-            // label13
+            // lblTotal100p
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(147, 377);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(41, 13);
-            this.label13.TabIndex = 35;
-            this.label13.Text = "label13";
+            this.lblTotal100p.AutoSize = true;
+            this.lblTotal100p.Location = new System.Drawing.Point(147, 377);
+            this.lblTotal100p.Name = "lblTotal100p";
+            this.lblTotal100p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal100p.TabIndex = 35;
+            this.lblTotal100p.Text = "label13";
             // 
-            // label14
+            // lblTotal50p
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(147, 322);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(41, 13);
-            this.label14.TabIndex = 34;
-            this.label14.Text = "label14";
+            this.lblTotal50p.AutoSize = true;
+            this.lblTotal50p.Location = new System.Drawing.Point(147, 322);
+            this.lblTotal50p.Name = "lblTotal50p";
+            this.lblTotal50p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal50p.TabIndex = 34;
+            this.lblTotal50p.Text = "label14";
             // 
-            // label15
+            // lblTotal20p
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(147, 263);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(41, 13);
-            this.label15.TabIndex = 33;
-            this.label15.Text = "label15";
+            this.lblTotal20p.AutoSize = true;
+            this.lblTotal20p.Location = new System.Drawing.Point(147, 263);
+            this.lblTotal20p.Name = "lblTotal20p";
+            this.lblTotal20p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal20p.TabIndex = 33;
+            this.lblTotal20p.Text = "label15";
             // 
-            // label16
+            // lblTotal5p
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(147, 152);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(41, 13);
-            this.label16.TabIndex = 32;
-            this.label16.Text = "label16";
+            this.lblTotal5p.AutoSize = true;
+            this.lblTotal5p.Location = new System.Drawing.Point(147, 152);
+            this.lblTotal5p.Name = "lblTotal5p";
+            this.lblTotal5p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal5p.TabIndex = 32;
+            this.lblTotal5p.Text = "label16";
             // 
-            // label17
+            // lblTotal10p
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(147, 205);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 13);
-            this.label17.TabIndex = 31;
-            this.label17.Text = "label17";
+            this.lblTotal10p.AutoSize = true;
+            this.lblTotal10p.Location = new System.Drawing.Point(147, 205);
+            this.lblTotal10p.Name = "lblTotal10p";
+            this.lblTotal10p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal10p.TabIndex = 31;
+            this.lblTotal10p.Text = "label17";
             // 
-            // label18
+            // lblTotal2p
             // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(147, 94);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(41, 13);
-            this.label18.TabIndex = 30;
-            this.label18.Text = "label18";
+            this.lblTotal2p.AutoSize = true;
+            this.lblTotal2p.Location = new System.Drawing.Point(147, 94);
+            this.lblTotal2p.Name = "lblTotal2p";
+            this.lblTotal2p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal2p.TabIndex = 30;
+            this.lblTotal2p.Text = "label18";
             // 
-            // label19
+            // lblTotal1p
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(147, 37);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(41, 13);
-            this.label19.TabIndex = 29;
-            this.label19.Text = "label19";
+            this.lblTotal1p.AutoSize = true;
+            this.lblTotal1p.Location = new System.Drawing.Point(147, 37);
+            this.lblTotal1p.Name = "lblTotal1p";
+            this.lblTotal1p.Size = new System.Drawing.Size(41, 13);
+            this.lblTotal1p.TabIndex = 29;
+            this.lblTotal1p.Text = "label19";
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.pictureBox1);
-            this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Controls.Add(this.lblTotal200p);
             this.groupBox2.Controls.Add(this.pictureBox2);
-            this.groupBox2.Controls.Add(this.label13);
+            this.groupBox2.Controls.Add(this.lblTotal100p);
             this.groupBox2.Controls.Add(this.pictureBox3);
-            this.groupBox2.Controls.Add(this.label14);
+            this.groupBox2.Controls.Add(this.lblTotal50p);
             this.groupBox2.Controls.Add(this.pictureBox4);
-            this.groupBox2.Controls.Add(this.label15);
+            this.groupBox2.Controls.Add(this.lblTotal20p);
             this.groupBox2.Controls.Add(this.pictureBox5);
-            this.groupBox2.Controls.Add(this.label16);
+            this.groupBox2.Controls.Add(this.lblTotal5p);
             this.groupBox2.Controls.Add(this.pictureBox6);
-            this.groupBox2.Controls.Add(this.label17);
+            this.groupBox2.Controls.Add(this.lblTotal10p);
             this.groupBox2.Controls.Add(this.pictureBox7);
-            this.groupBox2.Controls.Add(this.label18);
+            this.groupBox2.Controls.Add(this.lblTotal2p);
             this.groupBox2.Controls.Add(this.pictureBox8);
-            this.groupBox2.Controls.Add(this.label19);
+            this.groupBox2.Controls.Add(this.lblTotal1p);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label8);
@@ -516,9 +516,9 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.textBox1);
+            this.groupBox3.Controls.Add(this.txtNoOfCredits);
             this.groupBox3.Controls.Add(this.label21);
-            this.groupBox3.Controls.Add(this.textBox3);
+            this.groupBox3.Controls.Add(this.txtCostPerCredit);
             this.groupBox3.Controls.Add(this.label20);
             this.groupBox3.Location = new System.Drawing.Point(12, 389);
             this.groupBox3.Name = "groupBox3";
@@ -536,12 +536,12 @@
             this.label21.TabIndex = 31;
             this.label21.Text = "You Have This Number Of Credits: ";
             // 
-            // textBox3
+            // txtCostPerCredit
             // 
-            this.textBox3.Location = new System.Drawing.Point(180, 32);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 30;
+            this.txtCostPerCredit.Location = new System.Drawing.Point(180, 32);
+            this.txtCostPerCredit.Name = "txtCostPerCredit";
+            this.txtCostPerCredit.Size = new System.Drawing.Size(100, 20);
+            this.txtCostPerCredit.TabIndex = 30;
             // 
             // label20
             // 
@@ -552,30 +552,31 @@
             this.label20.TabIndex = 0;
             this.label20.Text = "Please Enter The Cost Per Credit: ";
             // 
-            // button1
+            // btnReset
             // 
-            this.button1.BackColor = System.Drawing.Color.Red;
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(12, 492);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(342, 23);
-            this.button1.TabIndex = 39;
-            this.button1.Text = "RESET";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btnReset.BackColor = System.Drawing.Color.Red;
+            this.btnReset.ForeColor = System.Drawing.Color.Black;
+            this.btnReset.Location = new System.Drawing.Point(12, 492);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(342, 23);
+            this.btnReset.TabIndex = 39;
+            this.btnReset.Text = "RESET";
+            this.btnReset.UseVisualStyleBackColor = false;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
-            // textBox1
+            // txtNoOfCredits
             // 
-            this.textBox1.Location = new System.Drawing.Point(180, 56);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 32;
+            this.txtNoOfCredits.Location = new System.Drawing.Point(180, 56);
+            this.txtNoOfCredits.Name = "txtNoOfCredits";
+            this.txtNoOfCredits.Size = new System.Drawing.Size(100, 20);
+            this.txtNoOfCredits.TabIndex = 32;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(613, 546);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnReset);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -640,21 +641,21 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label lblTotal200p;
+        private System.Windows.Forms.Label lblTotal100p;
+        private System.Windows.Forms.Label lblTotal50p;
+        private System.Windows.Forms.Label lblTotal20p;
+        private System.Windows.Forms.Label lblTotal5p;
+        private System.Windows.Forms.Label lblTotal10p;
+        private System.Windows.Forms.Label lblTotal2p;
+        private System.Windows.Forms.Label lblTotal1p;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtCostPerCredit;
         private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.TextBox txtNoOfCredits;
     }
 }
 

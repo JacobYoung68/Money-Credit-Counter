@@ -25,57 +25,129 @@ namespace WindowsFormsApp1
             txtTotalPoundsandPence.Text = ("£" + (Convert.ToDouble(total) / 100).ToString());
         }
 
-        private void btn_Click(object sender, EventArgs e)
+        private bool checkcredit()
         {
-            total = 0;
-            updateTotal();
+            if (txtCostPerCredit.Text == 0.ToString())
+            {
+                return true;
+            }
+            else if (txtCostPerCredit.Text == "")
+            {
+                return true;
+            } else
+            {
+                return false;
+            }
         }
+
 
         private void img1p_Click(object sender, EventArgs e)
         {
-            total++;
-            updateTotal();
+            if (checkcredit() == true)
+            {
+                total++;
+                updateTotal();
+            }
+            else
+            {
+                MessageBox.Show("Please Enter the Cost per Credit");
+            }            
         }
 
         private void img2p_Click(object sender, EventArgs e)
         {
-            total = total + 2;
-            updateTotal();
+            if (checkcredit() == true)
+            {
+                total = total + 2;
+                updateTotal();
+            }
+            else
+            {
+                MessageBox.Show("Please Enter the Cost per Credit");
+            }
         }
 
         private void img5p_Click(object sender, EventArgs e)
         {
-            total = total + 5;
-            updateTotal();
+            if (checkcredit() == true)
+            {
+                total = total + 5;
+                updateTotal();
+            }
+            else
+            {
+                MessageBox.Show("Please Enter the Cost per Credit");
+            }
         }
 
         private void img10p_Click(object sender, EventArgs e)
         {
-            total = total + 10;
-            updateTotal();
+            if (checkcredit() == true)
+            {
+                total = total + 10;
+                updateTotal();
+            }
+            else
+            {
+                MessageBox.Show("Please Enter the Cost per Credit");
+            }
         }
 
         private void img20p_Click(object sender, EventArgs e)
         {
-            total = total + 20;
-            updateTotal();
+            if (checkcredit() == true)
+            {
+                total = total + 20;
+                updateTotal();
+            }
+            else
+            {
+                MessageBox.Show("Please Enter the Cost per Credit");
+            }
         }
 
         private void img50p_Click(object sender, EventArgs e)
         {
-            total = total + 50;
-            updateTotal();
+            if (checkcredit() == true)
+            {
+                total = total + 50;
+                updateTotal();
+            }
+            else
+            {
+                MessageBox.Show("Please Enter the Cost per Credit");
+            }
         }
 
         private void img100p_Click(object sender, EventArgs e)
         {
-            total = total + 100;
-            updateTotal();
+            if (checkcredit() == true)
+            {
+                total = total + 100;
+                updateTotal();
+            }
+            else
+            {
+                MessageBox.Show("Please Enter the Cost per Credit");
+            }
         }
 
         private void img200p_Click(object sender, EventArgs e)
         {
-            total = total + 200;
+            if (checkcredit() == true)
+            {
+                total = total + 200;
+                updateTotal();
+            }
+            else
+            {
+                MessageBox.Show("Please Enter the Cost per Credit");
+            }
+        }
+
+        private void btnReset_Click(object sender, EventArgs e)
+        {
+            total = 0;
             updateTotal();
         }
     }
