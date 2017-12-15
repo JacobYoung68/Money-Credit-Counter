@@ -19,13 +19,22 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
+        private void updateTotal()
+        {
+            txtTotalPence.Text = (total.ToString() + "p");
+            txtTotalPoundsandPence.Text = ("£" + (Convert.ToDouble(total) / 100).ToString());
+        }
 
+        private void btn_Click(object sender, EventArgs e)
+        {
+            total = 0;
+            updateTotal();
+        }
 
         private void img1p_Click(object sender, EventArgs e)
         {
             total++;
             updateTotal();
-
         }
 
         private void img2p_Click(object sender, EventArgs e)
@@ -67,17 +76,6 @@ namespace WindowsFormsApp1
         private void img200p_Click(object sender, EventArgs e)
         {
             total = total + 200;
-            updateTotal();
-        }
-        private void updateTotal()
-        {
-            lblTotalPence.Text = (total.ToString() + "p");
-            lblTotalPoundsandPence.Text = ("£" + (Convert.ToDouble(total) / 100).ToString());
-        }
-
-        private void btn_Click(object sender, EventArgs e)
-        {
-            total = 0;
             updateTotal();
         }
     }
