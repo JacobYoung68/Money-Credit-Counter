@@ -13,7 +13,7 @@ namespace WindowsFormsApp1
 
     public partial class Form1 : Form
     {
-        int total = 0;
+        int total = 0;                              // Global variable for total pennies  
         int [] cointotals = new int[8];
         public Form1()
         {
